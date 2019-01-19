@@ -1,6 +1,116 @@
 @import "_variables.scss";
+@import "_sidebar.scss";
 
-.container{
-    background-color: $primary-grey;
-    color: #000000;
+.bg-white{
+    background-color: $white;
+}
+
+.shadow{
+    box-shadow: 0 2px 4px 0 rgba(113, 113, 113, 0.5);
+}
+
+.navbar{
+    height: 50px;
+}
+
+.logo{
+    width:auto;
+    height: 100px;
+}
+
+.text-heading{
+    color: $primary-blue;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:700;
+}
+
+.text-details{
+    color: $text-grey;
+    font-size: 14px;
+}
+
+.form-text-details{
+    color: $text-black;
+    font-size:11px;
+    margin:0px;
+}
+
+.form-sub-text-details{
+    color: $text-grey;
+    font-size: 11px;
+    margin: 3px 0px;
+    width:auto;
+}
+
+.sub-text-black{
+    font-weight:bold;
+    color: $text-black !important;
+    font-size: 12px;
+    display: inline;
+}
+
+.col-divs{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.form-block{
+    background-color: $white;
+    box-shadow: 3px 5px 4px 0px rgba(113, 113, 113, 0.3);
+    position: relative;
+    min-height:800px;
+    margin-top:30px;
+    padding:10px;
+}
+
+.form-block-top{
+    margin-bottom:25px;
+}
+
+.text-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-logo{
+    width:50px;
+    height:auto;
+}
+
+form input{
+    color:$text-grey !important;
+    font-size:14px !important;
+    border:unset !important;
+    border-bottom: 1px solid #ced4da !important;
+    border-radius: 0 !important;
+    outline:none;
+}
+
+form input:focus{
+    outline:none !important;
+}
+
+.form-title{
+    font-size:14px;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.p-top-10{
+    padding-top:10px;
+}
+
+.empty-block{
+    padding:10px;
+    height:10px;
+}
+
+.highlight-orange{
+    background-color: #f2994a;
+    border-radius:5px;
+    width:auto;
+    height:auto;
+    padding:2px;
 }

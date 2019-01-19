@@ -180,6 +180,10 @@ form input:focus {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+.form-title-small {
+  font-size: 10px;
+  color: #616161; }
+
 .p-top-10 {
   padding-top: 10px; }
 
@@ -193,3 +197,27 @@ form input:focus {
   width: auto;
   height: auto;
   padding: 2px; }
+
+.fill-form {
+  width: 85%; }
+
+.footer {
+  background-color: #ffffff;
+  height: 50px;
+  position: fixed;
+  margin: auto;
+  height: 50px;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030; }
+
+.f-right {
+  float: right; }
+
+.p-10 {
+  padding: 10px 10px; }
+
+.nav-btn {
+  font-size: 12px; }

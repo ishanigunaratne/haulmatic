@@ -51,6 +51,9 @@ body {
   line-height: 40px;
   padding: 20px 10px; }
 
+.sidebar-nav li:first-child {
+  padding-top: 5px; }
+
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
